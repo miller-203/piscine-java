@@ -32,6 +32,9 @@ public class Character {
     public void setHealth(int health) {
         this.currentHealth = health;
     }
+    public void setCurrentHealth(int health) {
+        this.currentHealth = health;
+    }
     public void takeDamage(int damage) {
         this.currentHealth -= damage;
         if (this.currentHealth < 0) {
